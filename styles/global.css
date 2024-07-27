@@ -5,6 +5,7 @@
   --skeleton-color: #d9d9d9;
   --text-color-primary: #313131;
   --text-color-secundary: #6c6c6c;
+  --shape-transparency: #ffffff91;
   font-family: "Poppins", sans-serif;
 }
 
@@ -12,4 +13,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  color: var(--text-color-secundary);
+  background-color: var(--background-color);
 }
